@@ -1,0 +1,23 @@
+.news-card {
+  transition: transform 0.3s ease, box-shadow 0.3s ease;
+  border-radius: 1rem;
+}
+
+.news-card:hover {
+  transform: scale(1.03);
+  box-shadow: 0 8px 24px rgba(0, 0, 0, 0.15);
+}
+
+.bg-gradient-overlay {
+  background: linear-gradient(to top, rgba(0, 0, 0, 0.5), transparent);
+}
+
+.gradient-btn {
+  background: linear-gradient(45deg, #007bff, #6610f2);
+  border: none;
+  transition: background 0.3s ease;
+}
+
+.gradient-btn:hover {
+  background: linear-gradient(45deg, #0056b3, #520dc2);
+}
